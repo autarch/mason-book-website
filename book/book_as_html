@@ -587,7 +587,7 @@ unless ( $opts{target} )
     exit 1;
 }
 
-$opts{ext} ||= '.mhtml';
+$opts{ext} ||= '.html';
 
 mkpath( $opts{target}, 1, 0755 );
 mkpath( File::Spec->catdir( $opts{target}, 'figures' ), 1, 0755 );

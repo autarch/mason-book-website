@@ -1,3 +1,0 @@
-<%init>
-$m->redirect('index.mhtml');
-</%init>

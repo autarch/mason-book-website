@@ -1,7 +1,0 @@
-<a href="http://ruminator.booksense.com<% $path %>"><% $m->content %></a>\
-<%args>
-$item => 1
-</%args>
-<%init>
-my $path = $item ? '/NASApp/store/IndexJsp?s=showproduct&amp;affiliateId=mason&amp;isbn=0596002254' : '/NASApp/store/IndexJsp?affiliateId=mason';
-</%init>

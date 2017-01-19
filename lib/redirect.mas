@@ -1,0 +1,9 @@
+<%once>
+use Apache::Constants qw( REDIRECT );
+</%once>
+<%args>
+$url
+</%args>
+<%init>
+$m->redirect($url);
+</%init>

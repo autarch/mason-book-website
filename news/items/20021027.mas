@@ -1,0 +1,9 @@
+<%method title>
+Book is available online
+</%method>
+
+<%method body>
+<p class="content">
+The book is available from online retailers.
+</p>
+</%method>

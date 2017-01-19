@@ -1,0 +1,43 @@
+<p class="book-menu">
+<a href="index.mhtml">Table of Contents</a>
+|
+<a href="foreword.mhtml">Foreword</a>
+|
+<a href="preface.mhtml">Preface</a>
+<br>
+Chapters: 
+% for (1..12) {
+<a href="chapter-<% $_ %>.mhtml"><% $_ %></a>
+% }
+<br>
+Appendices:
+% for ('A'..'D') {
+<a href="appendix-<% lc $_ %>.mhtml"><% $_ %></a>
+% }
+<br>
+<a href="glossary.mhtml">Glossary</a>
+|
+<a href="colophon.mhtml">Colophon</a>
+|
+<a href="copyright.mhtml">Copyright</a>
+</p>
+
+% if ($bottom) {
+<p>
+These HTML pages were created by running <a
+href="book_as_html">this script</a> against the <a
+href="mason-book.tar.gz">pseudo-POD source</a>.
+</p>
+% }
+
+<%args>
+$top => 0
+$bottom => 0
+</%args>
+
+<%filter>
+my ($uri) = $r->uri =~ m,([^/]+)$,;
+$uri ||= 'index.mhtml';
+
+s,<a href="$uri">([^<]+)</a>,<b>$1</b>,;
+</%filter>

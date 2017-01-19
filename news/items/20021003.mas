@@ -1,0 +1,10 @@
+<%method title>
+O'Reilly posts book preview
+</%method>
+
+<%method body>
+<p class="content">
+O'Reilly has put the table of contents, index, and a sample chapter <a
+href="http://www.oreilly.com/catalog/perlhtmlmason/">online</a>.
+</p>
+</%method>

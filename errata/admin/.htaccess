@@ -1,0 +1,7 @@
+AuthUserFile /home/masonbook/masonbook.com/passwd
+AuthGroupFile /dev/null
+AuthName "masonbook.com"
+AuthType Basic
+
+require user admin
+

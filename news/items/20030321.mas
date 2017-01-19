@@ -1,0 +1,12 @@
+<%method title>
+Book pseudo-POD and source =&gt; HTML converter available
+</%method>
+
+<%method body>
+<p class="content">
+The book's <a href="/book/mason-book.tar.gz">pseudo-POD source</a> and
+the <a href="/book/book_as_html">script used to convert it to
+HTML</a> are now available.  When viewing the book you'll see a link
+to both at the bottom of each page.
+</p>
+</%method>

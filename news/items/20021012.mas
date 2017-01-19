@@ -1,0 +1,11 @@
+<%method title>
+Authors receive copies, source code is available online
+</%method>
+
+<%method body>
+<p class="content">
+Copies have been shipped to the authors (whee!), so I expect it'll be
+available in stores and online real soon now.  Just for yucks, I put
+the <a href="/source/">example code</a> online.
+</p>
+</%method>

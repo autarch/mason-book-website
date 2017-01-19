@@ -1,0 +1,20 @@
+<%method title>
+Free online version is available
+</%method>
+
+<%method body>
+<p class="content">
+The free (as in beer) <a href="/book/">online version of the book</a>
+is now available.  This version does not yet include the index, and it
+may still be a bit rough around the edges.  It <i>does</i> include
+corrections for all the <a
+href="http://www.oreilly.com/catalog/perlhtmlmason/errata/">errata
+items</a> reported so far.
+</p>
+
+<p class="content">
+Once I'm confident that there are no major errors yet to be fixed, the
+book source (in POD-alike language ORA invented) and the tool used to
+convert it to HTML will be made available.
+</p>
+</%method>

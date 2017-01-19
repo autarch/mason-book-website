@@ -1,0 +1,10 @@
+<h3>News</h3>
+
+<%perl>
+my @news = $m->comp('/lib/news_items.mas');
+
+foreach my $item (@news)
+{
+    $m->subexec( $item );
+}
+</%perl>

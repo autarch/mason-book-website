@@ -1,0 +1,11 @@
+<%method title>
+Review by Simon Cozens
+</%method>
+
+<%method body>
+<p class="content">
+Simon Cozens has written a <a
+href="http://www.perl.com/pub/a/2003/01/30/review.html">review of the
+book</a> for the perl.com site.
+</p>
+</%method>

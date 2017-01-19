@@ -1,0 +1,14 @@
+<%method title>
+Updated Apprentice site tarball (version 0.15)
+</%method>
+
+<%method body>
+<p class="content">
+The <a href="/source/">Apprentice site tarball</a> has been updated
+and now includes better, more complete installation instructions.
+</p>
+</%method>
+
+<%attr>
+skip_front_page => 1
+</%attr>

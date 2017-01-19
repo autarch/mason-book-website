@@ -1,0 +1,15 @@
+<%method title>
+Updated Apprentice site tarball (version 0.17)
+</%method>
+
+<%method body>
+<p class="content">
+A few more updates to the installation instructions.  Please note that
+this site does not work with versions of Mason before 1.10.  A <a
+href="/source/">new tarball</a> is available.
+</p>
+</%method>
+
+<%attr>
+skip_front_page => 1
+</%attr>

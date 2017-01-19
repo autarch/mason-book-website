@@ -1,0 +1,45 @@
+<&| /lib/buy_it_link.mas &><img src="/i/cover_large.jpg" width="200" height="262" class="largecover" alt="Large cover"></&>
+<h3>News</h3>
+
+<& /lib/news_bullets.mas, max => 4 &>
+
+<h3>Welcome</h3>
+
+<p class="content">
+Welcome to the Mason book site.  <em>Embedding Perl in HTML with
+Mason</em> was published by <a
+href="http://www.oreilly.com/">O'Reilly and Associates</a> in October
+of 2002.
+</p>
+
+<p class="content">
+<a href="http://www.masonhq.com/">Mason</a> is a powerful text
+templating tool for embedding Perl in text.  It offers many
+features to help you create dynamic web sites from re-usable
+components.  Besides templating, it provides numerous other features
+such as:
+</p>
+
+<ul>
+  <li>The ability to create modular, re-usable components like headers,
+      footers, or menus.  You only need to make changes once.
+  <li>Integrated parameter handling for web requests.
+  <li>Built-in caching as well as a user-accessible cache API.
+  <li>Integration with <a href="http://perl.apache.org/"><tt>mod_perl</tt></a>
+      for speed and flexibility.
+  <li>Content filtering - anything from a small piece of a component
+      to an entire site.
+</ul>
+
+<p class="content">
+The <em>Embedding Perl in HTML with Mason</em> book documents the
+<tt>HTML::Mason</tt> framework in detail, including chapters on
+component syntax, Mason object APIs, a sample site walkthrough,
+recipes, and details on Mason's advanced features and how to use them.
+</p>
+
+<p class="content">
+The entire book will be <a href="/book/">freely available online</a>,
+though we of course <a href="buy.mhtml">encourage you to buy a
+copy</a>.
+</p>

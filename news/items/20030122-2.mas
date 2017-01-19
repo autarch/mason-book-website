@@ -1,0 +1,11 @@
+<%method title>
+Updated Apprentice site tarball (version 0.18)
+</%method>
+
+<%method body>
+<p class="content">
+The list of required modules in the INSTALL doc wasn't quite right.  A
+<a href="/source/">new tarball</a> is available.  This is hopefully
+the last of many updates over the past few days.
+</p>
+</%method>
